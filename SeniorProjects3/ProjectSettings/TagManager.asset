@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - base
+  - mid
+  - top
+  - nose
+  - lefthand
+  - righthand
   layers:
   - Default
   - TransparentFX
