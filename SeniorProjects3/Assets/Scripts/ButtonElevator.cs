@@ -98,6 +98,7 @@ public class ButtonElevator : MonoBehaviour {
 
     IEnumerator Move(Vector3 startPosition, Vector3 endPosition)
     {
+        OpenCloseDoor();
         while (elevator.transform.position != endPosition)
         {
             yield return new WaitForSeconds(waitSeconds);
@@ -105,5 +106,7 @@ public class ButtonElevator : MonoBehaviour {
             elevator.transform.position = Vector3.Lerp(startPosition, endPosition, distanceCovered / distance);
         }
         isMoving = false;
+
+        OpenCloseDoor();
     }
 }
