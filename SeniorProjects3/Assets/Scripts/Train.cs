@@ -7,6 +7,9 @@ public class Train : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        this.gameObject.transform.eulerAngles += new Vector3(0, RotateEveryUpdate, 0);
+        if (this.transform.parent == null) //if it's not grabbed
+        {
+            this.gameObject.transform.eulerAngles += new Vector3(0, RotateEveryUpdate, 0);
+        }
     }
 }
