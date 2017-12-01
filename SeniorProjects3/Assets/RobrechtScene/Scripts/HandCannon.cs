@@ -10,8 +10,6 @@
         private GameObject bullet;
         private VRTK_ControllerEvents controllerEvents;
 
-        private float minTriggerRotation = -10f;
-        private float maxTriggerRotation = 45f;
 
         private void ToggleCollision(Rigidbody objRB, Collider objCol, bool state)
         {
@@ -48,7 +46,6 @@
             //Unlimit hands
             allowedTouchControllers = AllowedController.Both;
             allowedUseControllers = AllowedController.Both;
-
             controllerEvents = null;
         }
 
@@ -56,7 +53,7 @@
         {
             base.StartUsing(currentUsingObject);
                 FireBullet();
-                VRTK_ControllerHaptics.TriggerHapticPulse(VRTK_ControllerReference.GetControllerReference(controllerEvents.gameObject), 0.63f, 0.2f, 0.01f);
+               // VRTK_ControllerHaptics.TriggerHapticPulse(VRTK_ControllerReference.GetControllerReference(controllerEvents.gameObject), 0.63f, 0.2f, 0.01f);
       
         }
 
@@ -77,7 +74,7 @@
             GameObject bulletClone = Instantiate(bullet, bullet.transform.position, bullet.transform.rotation) as GameObject;
             bulletClone.SetActive(true);
             Rigidbody rb = bulletClone.GetComponent<Rigidbody>();
-            rb.AddForce(bullet.transform.forward * bulletSpeed);
+			rb.AddForce(bullet.transform.up * bulletSpeed);
             Destroy(bulletClone, bulletLife);
         }
     }
