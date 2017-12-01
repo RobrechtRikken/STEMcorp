@@ -42,10 +42,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: LongbowLowPoly
   packageType: 2
-  itemPrefab: {fileID: 1279329421823432, guid: 05cb0d7937364024aab563a9d2ef630c, type: 2}
-  otherHandItemPrefab: {fileID: 187848, guid: d410d7126dd411c4ea651fc94eae9202, type: 2}
-  previewPrefab: {fileID: 196770, guid: a5b684916cfe6804985d74652a2af09f, type: 2}
-  fadedPreviewPrefab: {fileID: 103010, guid: b9d299b8c6aa86242bec9a060f7e2d81, type: 2}
+  itemPrefab: {fileID: 1279329421823432, guid: 5d2d97324efbf3a4a87a75bfdcc4ed4f, type: 2}
+  otherHandItemPrefab: {fileID: 1161975260287952, guid: 7f87d7644e284754994d59a14d24ddc5,
+    type: 2}
+  previewPrefab: {fileID: 1733409986885742, guid: 1ef1b8daf71f82e459c9c112de75f7a3,
+    type: 2}
+  fadedPreviewPrefab: {fileID: 1078660321273666, guid: d8e9c78a227715248b2a96cf037fce98,
+    type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

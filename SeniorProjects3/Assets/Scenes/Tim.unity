@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e53a985809f0949b9a42cc2a6888c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemPackage: {fileID: 11450054, guid: b52cd5d93c46a894d8e88e72bace3541, type: 2}
+  _itemPackage: {fileID: 11450054, guid: 0c9d5c0c91a3c7c459098f0ddc17caac, type: 2}
   requireTriggerPressToTake: 1
   requireTriggerPressToReturn: 0
   showTriggerHint: 1

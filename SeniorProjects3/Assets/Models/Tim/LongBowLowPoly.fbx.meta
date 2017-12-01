@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 14f185de2c27df74f8dc39274594d565
-timeCreated: 1512075880
+guid: 37b6ad99244b4f34393536f7578756c3
+timeCreated: 1512131676
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -26,22 +26,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Bow
-    second: {fileID: 2100000, guid: 28490b19bd15c85488edb9f12109cf5c, type: 2}
+    second: {fileID: 2100000, guid: 87dfd25cbdef17b4a959f89e5b981699, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Handle
-    second: {fileID: 2100000, guid: 1f501b075b3fed848bdd6b63ce65b8ad, type: 2}
+    second: {fileID: 2100000, guid: 1c630009ef81c3f4396dee0cfb23eac9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Screws
-    second: {fileID: 2100000, guid: 4a99cb0d688b11e418cc1af8d13581b5, type: 2}
+    second: {fileID: 2100000, guid: e05bcb3b2ccd10e4ea32a3c02e96d56f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Snare
-    second: {fileID: 2100000, guid: fc864f3377f570d44960e184d742d7db, type: 2}
+    second: {fileID: 2100000, guid: 389e0ecda486a6c4ba8d50de3c777ad3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -71,7 +71,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.4
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
