@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 9b80b0aa1a133478bbf71d745ca5fbf7
+timeCreated: 1512163458
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 2nd
+    100002: 3rd
+    100004: 4th
+    100006: base
+    100008: base_2
+    100010: base_3
+    100012: base_4
+    100014: black_stuff
+    100016: Cube_1
+    100018: Cube_1_2
+    100020: Cube_1_3
+    100022: Cube_2
+    100024: Cylinder
+    100026: Cylinder_1
+    100028: Cylinder_1_2
+    100030: Cylinder_1_3
+    100032: Cylinder_1_4
+    100034: Cylinder_2
+    100036: Cylinder_2_2
+    100038: joint
+    100040: joint_2
+    100042: joint_3
+    100044: locomotive
+    100046: Oil_Tank
+    100048: Oil_Tank_1
+    100050: Oil_Tank_1_2
+    100052: Oil_Tank_1_3
+    100054: Oil_Tank_1_4
+    100056: Oil_Tank_2
+    100058: Oil_Tank_2_2
+    100060: Oil_Tank_2_3
+    100062: Oil_Tank_2_4
+    100064: Oil_Tank_2_5
+    100066: Oil_Tank_3
+    100068: Oil_Tank_3_2
+    100070: Oil_Tank_3_3
+    100072: Oil_Tank_3_4
+    100074: Oil_Tank_3_5
+    100076: Oil_Tank_4
+    100078: Subdivision_Surface
+    100080: Subdivision_Surface_1
+    100082: //RootNode
+    100084: top
+    100086: wheels
+    100088: wheels_2
+    100090: wheels_3
+    100092: wheels_4
+    400000: 2nd
+    400002: 3rd
+    400004: 4th
+    400006: base
+    400008: base_2
+    400010: base_3
+    400012: base_4
+    400014: black_stuff
+    400016: Cube_1
+    400018: Cube_1_2
+    400020: Cube_1_3
+    400022: Cube_2
+    400024: Cylinder
+    400026: Cylinder_1
+    400028: Cylinder_1_2
+    400030: Cylinder_1_3
+    400032: Cylinder_1_4
+    400034: Cylinder_2
+    400036: Cylinder_2_2
+    400038: joint
+    400040: joint_2
+    400042: joint_3
+    400044: locomotive
+    400046: Oil_Tank
+    400048: Oil_Tank_1
+    400050: Oil_Tank_1_2
+    400052: Oil_Tank_1_3
+    400054: Oil_Tank_1_4
+    400056: Oil_Tank_2
+    400058: Oil_Tank_2_2
+    400060: Oil_Tank_2_3
+    400062: Oil_Tank_2_4
+    400064: Oil_Tank_2_5
+    400066: Oil_Tank_3
+    400068: Oil_Tank_3_2
+    400070: Oil_Tank_3_3
+    400072: Oil_Tank_3_4
+    400074: Oil_Tank_3_5
+    400076: Oil_Tank_4
+    400078: Subdivision_Surface
+    400080: Subdivision_Surface_1
+    400082: //RootNode
+    400084: top
+    400086: wheels
+    400088: wheels_2
+    400090: wheels_3
+    400092: wheels_4
+    2300000: base
+    2300002: base_2
+    2300004: base_3
+    2300006: base_4
+    2300008: Cube_1
+    2300010: Cube_1_2
+    2300012: Cube_1_3
+    2300014: Cube_2
+    2300016: Cylinder
+    2300018: Cylinder_1
+    2300020: Cylinder_1_2
+    2300022: Cylinder_1_3
+    2300024: Cylinder_1_4
+    2300026: Cylinder_2
+    2300028: Cylinder_2_2
+    2300030: joint
+    2300032: joint_2
+    2300034: joint_3
+    2300036: Oil_Tank
+    2300038: Oil_Tank_1
+    2300040: Oil_Tank_1_2
+    2300042: Oil_Tank_1_3
+    2300044: Oil_Tank_1_4
+    2300046: Oil_Tank_2
+    2300048: Oil_Tank_2_2
+    2300050: Oil_Tank_2_3
+    2300052: Oil_Tank_2_4
+    2300054: Oil_Tank_2_5
+    2300056: Oil_Tank_3
+    2300058: Oil_Tank_3_2
+    2300060: Oil_Tank_3_3
+    2300062: Oil_Tank_3_4
+    2300064: Oil_Tank_3_5
+    2300066: Oil_Tank_4
+    3300000: base
+    3300002: base_2
+    3300004: base_3
+    3300006: base_4
+    3300008: Cube_1
+    3300010: Cube_1_2
+    3300012: Cube_1_3
+    3300014: Cube_2
+    3300016: Cylinder
+    3300018: Cylinder_1
+    3300020: Cylinder_1_2
+    3300022: Cylinder_1_3
+    3300024: Cylinder_1_4
+    3300026: Cylinder_2
+    3300028: Cylinder_2_2
+    3300030: joint
+    3300032: joint_2
+    3300034: joint_3
+    3300036: Oil_Tank
+    3300038: Oil_Tank_1
+    3300040: Oil_Tank_1_2
+    3300042: Oil_Tank_1_3
+    3300044: Oil_Tank_1_4
+    3300046: Oil_Tank_2
+    3300048: Oil_Tank_2_2
+    3300050: Oil_Tank_2_3
+    3300052: Oil_Tank_2_4
+    3300054: Oil_Tank_2_5
+    3300056: Oil_Tank_3
+    3300058: Oil_Tank_3_2
+    3300060: Oil_Tank_3_3
+    3300062: Oil_Tank_3_4
+    3300064: Oil_Tank_3_5
+    3300066: Oil_Tank_4
+    4300000: Cylinder_1
+    4300002: Cube_1
+    4300004: base
+    4300006: Oil_Tank_1
+    4300008: Oil_Tank
+    4300010: Oil_Tank_2
+    4300012: Oil_Tank_3
+    4300014: Cylinder_1_2
+    4300016: Cube_1_2
+    4300018: base_2
+    4300020: Oil_Tank_1_2
+    4300022: Oil_Tank_2_2
+    4300024: Oil_Tank_2_3
+    4300026: Oil_Tank_3_2
+    4300028: joint
+    4300030: Cylinder_1_3
+    4300032: Cube_1_3
+    4300034: base_3
+    4300036: Oil_Tank_1_3
+    4300038: Oil_Tank_3_3
+    4300040: Oil_Tank_2_4
+    4300042: Oil_Tank_3_4
+    4300044: joint_2
+    4300046: joint_3
+    4300048: Cylinder_2
+    4300050: Cylinder_2_2
+    4300052: Cube_2
+    4300054: Cylinder_1_4
+    4300056: Cylinder
+    4300058: base_4
+    4300060: Oil_Tank_1_4
+    4300062: Oil_Tank_4
+    4300064: Oil_Tank_2_5
+    4300066: Oil_Tank_3_5
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 71669526479e44f74b18f8b2efbf6910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: bbe4fd97a8fa64ff19bbce68cb3776aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.2
+    second: {fileID: 2100000, guid: 951be1fa3b5754f44a1cabdcd1d6dee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.3
+    second: {fileID: 2100000, guid: 0961e6ad489d24f6fa230898142fcb76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.4
+    second: {fileID: 2100000, guid: 067774699ba034131bc55fe3656f3ece, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
