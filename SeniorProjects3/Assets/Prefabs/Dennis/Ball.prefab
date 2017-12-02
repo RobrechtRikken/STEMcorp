@@ -22,10 +22,10 @@ GameObject:
   - component: {fileID: 33002922410599044}
   - component: {fileID: 23130482898886412}
   - component: {fileID: 64889593128475138}
+  - component: {fileID: 54823320057332254}
   - component: {fileID: 114294819962598526}
   - component: {fileID: 114116146729035092}
   - component: {fileID: 114965318603055512}
-  - component: {fileID: 54823320057332254}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
