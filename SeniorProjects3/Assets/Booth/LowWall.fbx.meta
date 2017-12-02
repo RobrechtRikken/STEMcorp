@@ -1,41 +1,32 @@
 fileFormatVersion: 2
-guid: 18bb99582bd3b6644abf852ebd6fdc17
-timeCreated: 1512090451
+guid: 1ec83caafbc711642be1ef4f82943412
+timeCreated: 1512137738
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Cylinder
+    100000: CINEMA_4D_Editor
     100002: //RootNode
-    400000: Cylinder
+    100004: Muren_Kraam
+    400000: CINEMA_4D_Editor
     400002: //RootNode
-    2300000: Cylinder
-    2300002: //RootNode
-    3300000: Cylinder
-    3300002: //RootNode
-    4300000: Stand
-    4300002: Cylinder
+    400004: Muren_Kraam
+    2000000: CINEMA_4D_Editor
+    2300000: Muren_Kraam
+    3300000: Muren_Kraam
+    4300000: Muren_Kraam
+    9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mat
-    second: {fileID: 2100000, guid: 252694d1934af2e44a2d9081ea9832d6, type: 2}
+      name: Kraam_walls
+    second: {fileID: 2100000, guid: 6610b35d605bc264b8ed2700e74cd64f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Mat.1
-    second: {fileID: 2100000, guid: 676529443d0bd85488353b8f2efbc607, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Mat.2
-    second: {fileID: 2100000, guid: 919eabab346f7474f8d0173d075dd457, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 85ae1042c79da0945aea6ab160529a4f, type: 2}
+      name: Wooden_walls
+    second: {fileID: 2100000, guid: 2afd1ade522c83c4ab7807e962c2c91d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -107,7 +98,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
