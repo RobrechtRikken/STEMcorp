@@ -5,6 +5,7 @@ using UnityEngine;
 public class BecomeChild : MonoBehaviour {
     protected int FERRISLAYER = 8;
     protected Transform originalParent;
+    //protected FixedJoint joint;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,12 @@ public class BecomeChild : MonoBehaviour {
     {
         if (other.gameObject.layer == 8) //makes the camera child of ferrisride
         {
-            this.gameObject.transform.SetParent(other.gameObject.transform);
+            //joint = this.gameObject.AddComponent(typeof(FixedJoint)) as FixedJoint;
+
+            //joint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
+            this.gameObject.transform.SetParent(other.transform);
+            Debug.Log(other.gameObject.name);
+            //joint.breakForce = 50;
         }
     }
 
@@ -28,7 +34,11 @@ public class BecomeChild : MonoBehaviour {
     {
         if (other.gameObject.layer == 8)
         {
+            //this.gameObject.transform.SetParent(originalParent);
             this.gameObject.transform.SetParent(originalParent);
+
+            //joint = null;
         }
+        this.gameObject.transform.eulerAngles = new Vector3(0, this.gameObject.transform.eulerAngles.y, 0);
     }
 }
