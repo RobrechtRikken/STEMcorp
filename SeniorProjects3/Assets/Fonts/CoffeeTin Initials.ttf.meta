@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 306cccc494a33714c90953274a3fb152
+timeCreated: 1512643947
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CoffeeTin
+  fontNames:
+  - CoffeeTin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
