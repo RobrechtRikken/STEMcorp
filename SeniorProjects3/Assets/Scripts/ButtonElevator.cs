@@ -7,6 +7,7 @@ public class ButtonElevator : MonoBehaviour {
     protected bool isMoving;
     public GameObject elevator;
     public Vector3 upPosition;
+	public float ammountToGoUp;
     public float waitSeconds;
     public GameObject leftDoor;
     public GameObject rightDoor;
@@ -18,16 +19,20 @@ public class ButtonElevator : MonoBehaviour {
     //protected Vector3 leftDoorPosition;
     //protected Vector3 rightDoorPosition;
     protected float startTimeDoors;
+	public GameObject cameraRig;
+	protected Transform originalParent;
 
 	void Start () {
         buttonPressed = false;
         isMoving = false;
         doorsClosed = true;
         downPosition = elevator.transform.position; //downPosition is default position
-        upPosition += elevator.transform.parent.position;
-        distance = Vector3.Distance(upPosition, downPosition);
+        //upPosition += elevator.transform.parent.position;
+		upPosition = new Vector3(elevator.transform.position.x, elevator.transform.position.y + ammountToGoUp, elevator.transform.position.z);
+		distance = 5; // == speed//Vector3.Distance(upPosition, downPosition);
         //rightDoorPosition = rightDoor.transform.position;
         //leftDoorPosition = leftDoor.transform.position;
+		originalParent = cameraRig.transform.parent;
 	}
 
     public void buttonPushed()
@@ -99,6 +104,7 @@ public class ButtonElevator : MonoBehaviour {
     IEnumerator Move(Vector3 startPosition, Vector3 endPosition)
     {
         OpenCloseDoor();
+		cameraRig.transform.parent = elevator.transform;
         while (elevator.transform.position != endPosition)
         {
             yield return new WaitForSeconds(waitSeconds);
@@ -106,7 +112,7 @@ public class ButtonElevator : MonoBehaviour {
             elevator.transform.position = Vector3.Lerp(startPosition, endPosition, distanceCovered / distance);
         }
         isMoving = false;
-
+		cameraRig.transform.parent = originalParent;
         OpenCloseDoor();
     }
 }

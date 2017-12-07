@@ -1,44 +1,103 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
 
 public class BecomeChild : MonoBehaviour {
     protected int FERRISLAYER = 8;
     protected Transform originalParent;
+	public GameObject playArea;
     //protected FixedJoint joint;
+	protected bool stay;
+	protected bool isColliding;
+	public GameObject cameraRig;
 
-	// Use this for initialization
+	protected bool stayChild;
+
+	// Use ² for initialization
 	void Start () {
-        originalParent = this.gameObject.transform.parent;
+		originalParent = cameraRig.transform.parent;
+		stay = false;
+		isColliding = false;
+		stayChild = false;
 	}
-	
+
+	/*void FixedUpdate()
+	{
+		if (stayChild) {
+			isColliding = true;
+			stayChild = false;
+		} else {
+			isColliding = false;
+		}
+
+		if (!isColliding) {
+			CollisionExit ();
+		}
+	}*/
+
 	// Update is called once per frame
-	void Update () {
-		
+	/*void FixedUpdate () {
+		if (stay) {
+			isColliding = true;
+			stay = false;
+		} else {
+			isColliding = false;
+			CollisionExit ();
+		}
 	}
+
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 8) //makes the camera child of ferrisride
         {
-            //joint = this.gameObject.AddComponent(typeof(FixedJoint)) as FixedJoint;
-
-            //joint.connectedBody = other.gameObject.GetComponent<Rigidbody>();
-            this.gameObject.transform.SetParent(other.transform);
+			cameraRig.transform.SetParent(other.transform);
+			playArea.GetComponent<VRTK_BodyPhysics> ().enabled = false;
             Debug.Log(other.gameObject.name);
-            //joint.breakForce = 50;
         }
     }
+
+	void OnTriggerStay(Collider other)
+	{
+		if (other.gameObject.layer == 8) {
+			stay = true;
+		}
+	}
 
     private void OnTriggerExit(Collider other)
     {
+		Debug.Log ("Exited from:" + other.name);
+
         if (other.gameObject.layer == 8)
         {
             //this.gameObject.transform.SetParent(originalParent);
-            this.gameObject.transform.SetParent(originalParent);
+			cameraRig.transform.SetParent(originalParent);
+			playArea.GetComponent<VRTK_BodyPhysics> ().enabled = true;
+			Debug.Log ("This does happen!");
 
             //joint = null;
         }
-        this.gameObject.transform.eulerAngles = new Vector3(0, this.gameObject.transform.eulerAngles.y, 0);
-    }
+        cameraRig.transform.eulerAngles = new Vector3(0, cameraRig.transform.eulerAngles.y, 0);
+    }*/
+
+	protected void CollisionExit()
+	{
+		cameraRig.transform.SetParent(originalParent);
+		playArea.GetComponent<VRTK_BodyPhysics> ().enabled = true;
+		cameraRig.transform.eulerAngles = new Vector3(0, cameraRig.transform.eulerAngles.y, 0);
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		cameraRig.transform.SetParent(other.transform);
+		playArea.GetComponent<VRTK_BodyPhysics> ().enabled = false;
+		Debug.Log(other.gameObject.name);
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		Debug.Log ("This happens " + other.name);
+		CollisionExit ();
+	}
 }
