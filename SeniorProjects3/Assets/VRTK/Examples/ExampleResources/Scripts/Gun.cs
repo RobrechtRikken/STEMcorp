@@ -4,20 +4,21 @@
 
     public class Gun : VRTK_InteractableObject
     {
-        private GameObject bullet;
-        private float bulletSpeed = 1000f;
-        private float bulletLife = 5f;
+		public GameObject bullet;
+		public float bulletSpeed = 1000f;
+		public float bulletLife = 5f;
 
         public override void StartUsing(VRTK_InteractUse usingObject)
         {
             base.StartUsing(usingObject);
+			Debug.Log ("You are using this item");
             FireBullet();
         }
 
         protected void Start()
         {
-            bullet = transform.Find("Bullet").gameObject;
-            bullet.SetActive(false);
+         /*   bullet = transform.Find("Bullet").gameObject;
+            bullet.SetActive(false);*/
         }
 
         private void FireBullet()
@@ -27,6 +28,7 @@
             Rigidbody rb = bulletClone.GetComponent<Rigidbody>();
             rb.AddForce(-bullet.transform.forward * bulletSpeed);
             Destroy(bulletClone, bulletLife);
+			GetComponent<AudioSource> ().Play ();
         }
     }
 }
