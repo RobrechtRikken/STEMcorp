@@ -4,7 +4,6 @@ using UnityEngine;
 using VRTK;
 
 public class BecomeChild : MonoBehaviour {
-    protected int FERRISLAYER = 8;
     protected Transform originalParent;
 	public GameObject playArea;
     //protected FixedJoint joint;
