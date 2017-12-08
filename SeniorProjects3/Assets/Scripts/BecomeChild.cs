@@ -89,6 +89,7 @@ public class BecomeChild : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log ("This happens triggerenter");
 		cameraRig.transform.SetParent(other.transform);
 		playArea.GetComponent<VRTK_BodyPhysics> ().enabled = false;
 		Debug.Log(other.gameObject.name);
