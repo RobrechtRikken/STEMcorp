@@ -9769,10 +9769,10 @@ Terrain:
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 659e39e0939a6c748b1281337cce5cdf, type: 2}
   m_TreeDistance: 2000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_TreeBillboardDistance: 208
+  m_TreeCrossFadeLength: 67
+  m_TreeMaximumFullLODCount: 585
+  m_DetailObjectDistance: 125
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 101
   m_SplatMapDistance: 1000
