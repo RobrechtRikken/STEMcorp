@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9edc69fa9eda92244b3341850f8e01bb
-timeCreated: 1513105843
+guid: a9a253e4b6be9434d8ebcd48445b0517
+timeCreated: 1513105732
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -9,23 +9,13 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Hammer
+    4300000: BaseballBat
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Bark
-    second: {fileID: 2100000, guid: d928edbf62efce947a107f832cafa757, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Iron
-    second: {fileID: 2100000, guid: 6edb48f48d58475468e4c841c361b951, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: fbd9d9f3eb569ce4f8d19405ced96ff8, type: 2}
+      name: Handle
+    second: {fileID: 2100000, guid: ebe8d69d1cf1f6a499a3f5f9554a97d0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
