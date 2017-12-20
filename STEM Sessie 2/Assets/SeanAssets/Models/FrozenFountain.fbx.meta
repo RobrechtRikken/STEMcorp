@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: f660493d997794771a039b8aa676fb9a
+timeCreated: 1513762186
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1stIce
+    100002: 2ndIce
+    100004: 3rdIce
+    100006: BigIcicle
+    100008: BigIcicle_1
+    100010: BigIcicle_2
+    100012: BigIcicle_3
+    100014: BigIcicle_4
+    100016: BottomIce
+    100018: CINEMA_4D_Editor
+    100020: Fountain
+    100022: //RootNode
+    100024: Icicles
+    100026: MediumIcicle
+    100028: MediumIcicle_1
+    100030: MediumIcicle_2
+    100032: MediumIcicle_3
+    100034: MediumIcicle_4
+    100036: MediumIcicle_5
+    100038: SmallIcicle
+    100040: SmallIcicle_1
+    100042: SmallIcicle_2
+    100044: SmallIcicle_3
+    100046: SmallIcicle_4
+    100048: SmallIcicle_5
+    100050: SmallIcicle_6
+    100052: SmallIcicle_7
+    100054: SmallIcicle_8
+    100056: SmallIcicle_9
+    400000: 1stIce
+    400002: 2ndIce
+    400004: 3rdIce
+    400006: BigIcicle
+    400008: BigIcicle_1
+    400010: BigIcicle_2
+    400012: BigIcicle_3
+    400014: BigIcicle_4
+    400016: BottomIce
+    400018: CINEMA_4D_Editor
+    400020: Fountain
+    400022: //RootNode
+    400024: Icicles
+    400026: MediumIcicle
+    400028: MediumIcicle_1
+    400030: MediumIcicle_2
+    400032: MediumIcicle_3
+    400034: MediumIcicle_4
+    400036: MediumIcicle_5
+    400038: SmallIcicle
+    400040: SmallIcicle_1
+    400042: SmallIcicle_2
+    400044: SmallIcicle_3
+    400046: SmallIcicle_4
+    400048: SmallIcicle_5
+    400050: SmallIcicle_6
+    400052: SmallIcicle_7
+    400054: SmallIcicle_8
+    400056: SmallIcicle_9
+    2000000: CINEMA_4D_Editor
+    2300000: 1stIce
+    2300002: 2ndIce
+    2300004: 3rdIce
+    2300006: BigIcicle
+    2300008: BigIcicle_1
+    2300010: BigIcicle_2
+    2300012: BigIcicle_3
+    2300014: BigIcicle_4
+    2300016: BottomIce
+    2300018: Fountain
+    2300020: MediumIcicle
+    2300022: MediumIcicle_1
+    2300024: MediumIcicle_2
+    2300026: MediumIcicle_3
+    2300028: MediumIcicle_4
+    2300030: MediumIcicle_5
+    2300032: SmallIcicle
+    2300034: SmallIcicle_1
+    2300036: SmallIcicle_2
+    2300038: SmallIcicle_3
+    2300040: SmallIcicle_4
+    2300042: SmallIcicle_5
+    2300044: SmallIcicle_6
+    2300046: SmallIcicle_7
+    2300048: SmallIcicle_8
+    2300050: SmallIcicle_9
+    3300000: 1stIce
+    3300002: 2ndIce
+    3300004: 3rdIce
+    3300006: BigIcicle
+    3300008: BigIcicle_1
+    3300010: BigIcicle_2
+    3300012: BigIcicle_3
+    3300014: BigIcicle_4
+    3300016: BottomIce
+    3300018: Fountain
+    3300020: MediumIcicle
+    3300022: MediumIcicle_1
+    3300024: MediumIcicle_2
+    3300026: MediumIcicle_3
+    3300028: MediumIcicle_4
+    3300030: MediumIcicle_5
+    3300032: SmallIcicle
+    3300034: SmallIcicle_1
+    3300036: SmallIcicle_2
+    3300038: SmallIcicle_3
+    3300040: SmallIcicle_4
+    3300042: SmallIcicle_5
+    3300044: SmallIcicle_6
+    3300046: SmallIcicle_7
+    3300048: SmallIcicle_8
+    3300050: SmallIcicle_9
+    4300000: SmallIcicle_9
+    4300002: SmallIcicle_8
+    4300004: SmallIcicle_7
+    4300006: MediumIcicle_5
+    4300008: BigIcicle_4
+    4300010: MediumIcicle_4
+    4300012: SmallIcicle_6
+    4300014: BigIcicle_3
+    4300016: MediumIcicle_3
+    4300018: SmallIcicle_5
+    4300020: BigIcicle_2
+    4300022: MediumIcicle_2
+    4300024: SmallIcicle_4
+    4300026: SmallIcicle_3
+    4300028: SmallIcicle_2
+    4300030: MediumIcicle_1
+    4300032: BigIcicle_1
+    4300034: SmallIcicle_1
+    4300036: BigIcicle
+    4300038: MediumIcicle
+    4300040: SmallIcicle
+    4300042: 3rdIce
+    4300044: 2ndIce
+    4300046: 1stIce
+    4300048: BottomIce
+    4300050: Fountain
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: 7e322ddbac2344dbaae1830d70cd5de9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: cf43443cb327f4408902c5e2bfcfea10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ice
+    second: {fileID: 2100000, guid: b031388f9dc18484da1d2d95f7744398, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
