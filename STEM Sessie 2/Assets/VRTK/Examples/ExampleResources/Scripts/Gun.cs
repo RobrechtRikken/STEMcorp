@@ -4,7 +4,8 @@
 
     public class Gun : VRTK_InteractableObject
     {
-        private GameObject bullet;
+        public GameObject bullet;
+        private GameObject bulletSpawn;
         private float bulletSpeed = 1000f;
         private float bulletLife = 5f;
 
@@ -16,13 +17,13 @@
 
         protected void Start()
         {
-            bullet = transform.Find("Bullet").gameObject;
-            bullet.SetActive(false);
+            bulletSpawn = transform.Find("BulletSpawn").gameObject;
+            //bullet.SetActive(false);
         }
 
         private void FireBullet()
         {
-            GameObject bulletClone = Instantiate(bullet, bullet.transform.position, bullet.transform.rotation) as GameObject;
+            GameObject bulletClone = Instantiate(bullet, bulletSpawn.transform.position, bullet.transform.rotation) as GameObject;
             bulletClone.SetActive(true);
             Rigidbody rb = bulletClone.GetComponent<Rigidbody>();
             rb.AddForce(-bullet.transform.forward * bulletSpeed);
