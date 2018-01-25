@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: e2507e44a63120f4e9cadc8d6a59a379
+timeCreated: 1512917967
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Entry
+    100002: FaireTent
+    100004: //RootNode
+    100006: WoodenPillarRing
+    100008: WoodenPillarRing_1
+    100010: WoodenPillarRing_2
+    100012: WoodenPillarRing_3
+    100014: WoodenPillarRing_4
+    100016: WoodenPillarRing_5
+    100018: WoodenPole
+    100020: WoodenRing
+    400000: Entry
+    400002: FaireTent
+    400004: //RootNode
+    400006: WoodenPillarRing
+    400008: WoodenPillarRing_1
+    400010: WoodenPillarRing_2
+    400012: WoodenPillarRing_3
+    400014: WoodenPillarRing_4
+    400016: WoodenPillarRing_5
+    400018: WoodenPole
+    400020: WoodenRing
+    2300000: Entry
+    2300002: FaireTent
+    2300004: WoodenPillarRing
+    2300006: WoodenPillarRing_1
+    2300008: WoodenPillarRing_2
+    2300010: WoodenPillarRing_3
+    2300012: WoodenPillarRing_4
+    2300014: WoodenPillarRing_5
+    2300016: WoodenPole
+    2300018: WoodenRing
+    3300000: Entry
+    3300002: FaireTent
+    3300004: WoodenPillarRing
+    3300006: WoodenPillarRing_1
+    3300008: WoodenPillarRing_2
+    3300010: WoodenPillarRing_3
+    3300012: WoodenPillarRing_4
+    3300014: WoodenPillarRing_5
+    3300016: WoodenPole
+    3300018: WoodenRing
+    4300000: Entry
+    4300002: WoodenPillarRing_5
+    4300004: WoodenPillarRing_4
+    4300006: WoodenPillarRing_3
+    4300008: WoodenPillarRing_2
+    4300010: WoodenPillarRing_1
+    4300012: WoodenPillarRing
+    4300014: WoodenRing
+    4300016: WoodenPole
+    4300018: FaireTent
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark Blue Cloth
+    second: {fileID: 2100000, guid: 85ab013783eb38640b052c6c4729c837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red Cloth
+    second: {fileID: 2100000, guid: 3ecd7d9ce1d5d334c8bda8982eefefa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: b790d53379b40e2489a20cef2595e055, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
